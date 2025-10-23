@@ -5,10 +5,12 @@ public class Armstwithoutbuiltin {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter end number: ");
+		//System.out.println("Enter end number: ");
+		int n=sc.nextInt();
 		int m=sc.nextInt();
-		System.out.println("Enter st number");
-		for(int n=sc.nextInt();n<=m;n++) {
+		int i=n;
+		//System.out.println("Enter st number");
+		for( n=i;n<=m;n++) {
 		int temp=n;
 		int len=0;
 		while(n!=0) {

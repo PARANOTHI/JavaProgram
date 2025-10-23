@@ -1,6 +1,6 @@
 package Basics;
 
-public class InstanceVariable {
+public class Variables{
 	 static int insvar=25;
 	public static void main(String[] args) {
 		Variables ob1=new Variables();
